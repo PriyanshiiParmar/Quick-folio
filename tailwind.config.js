@@ -3,6 +3,14 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        italics: ['italics', 'sans-serif'],
+        semiItalic: ['semiItalic', 'sans-serif'],
+        chocolatly: ['chocolatly', 'sans-serif'],
+        penahitam: ['penahitam', 'sans-serif'],
+        religious:['religious',],
+        yessava:['yessava']
+      },
       keyframes: {
         fadeIn: {
           '0%': { opacity: 0 },

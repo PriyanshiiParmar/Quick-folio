@@ -1,3 +1,37 @@
+/* Tailwind imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom font face */
+@font-face {
+    font-family: 'italics';
+    src: url('./assests/Bulgatti-xgMV.ttf') format('truetype');
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'semiItalic';
+    src: url('./assests/AnandaBlackPersonalUseRegular-rg9Rx.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'chocolatly';
+    src: url('./assests/Sweetchocolate-ow83d.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'penahitam';
+    src: url('./assests/PenaHitam-1jYZe.otf') format('truetype');
+}
+@font-face {
+    font-family: 'religious';
+    src: url('./assests/ReligiouslySamanta-3lM1L.otf') format('truetype');
+}
+@font-face{
+    font-family: 'yessava';
+    src: url('./assests/YesevaOne-Regular.ttf');
+}
+html {
+    scroll-behavior: smooth;
+}
